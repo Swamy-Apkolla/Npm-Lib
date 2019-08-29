@@ -1,7 +1,8 @@
 var add = require("./addition.js");
-exports.Numbers = function(a, b) {
-  console.log("Node Numbers");
-  this.Add = function(a, b) {
-    add.AddNumber(a, b);
-  };
+exports.Numbers = function() {
+  console.log("Node Numbers function");
+};
+
+exports.Sum = function(a, b) {
+  return add.AddNumber(a, b);
 };
