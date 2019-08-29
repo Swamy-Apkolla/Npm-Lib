@@ -1,0 +1,25 @@
+{
+  "name": "neu-chartjs-lib",
+  "version": "1.0.0",
+  "description": "customized lib for chart.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swamy-Apkolla/Npm-Lib.git"
+  },
+  "keywords": [
+    "chartjs"
+  ],
+  "author": "Swamy Apkolla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Swamy-Apkolla/Npm-Lib/issues"
+  },
+  "homepage": "https://github.com/Swamy-Apkolla/Npm-Lib#readme",
+  "dependencies": {
+    "user": "0.0.0"
+  }
+}
