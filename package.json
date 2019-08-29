@@ -1,6 +1,6 @@
 {
   "name": "neu-chartjs-lib",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "customized lib for chart.js",
   "main": "index.js",
   "scripts": {
