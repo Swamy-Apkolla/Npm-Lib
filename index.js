@@ -1,6 +1,8 @@
-var app = require("./app");
+var Chart = require("chart.js");
 
-module.exports.Add = (a, b) => app.Sum(a, b);
+module.exports.CreateLineChart = (context, config) => {
+  console.log("from neu-chartjs-lib package");
+  new Chart(context, config);
+};
 
-// console.log(app.Numbers());
-// console.log(app.Sum(2, 3));
+module.exports.Chart = Chart;

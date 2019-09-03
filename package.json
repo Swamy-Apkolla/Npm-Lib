@@ -1,8 +1,9 @@
 {
   "name": "neu-chartjs-lib",
-  "version": "1.0.4",
+  "version": "1.0.8",
   "description": "customized lib for chart.js",
   "main": "index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,6 +21,9 @@
   },
   "homepage": "https://github.com/Swamy-Apkolla/Npm-Lib#readme",
   "dependencies": {
-    "user": "0.0.0"
+    "chart.js": "^2.8.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.6.2"
   }
 }
